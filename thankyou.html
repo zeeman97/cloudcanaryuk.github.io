@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thank You — Cloud Canary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --white:   #ffffff;
+  --canary:  #fde72e;
+  --ink:     #0d1b2e;
+  --body:    #3a4f6e;
+  --blue:    #1a56db;
+  --pill:    100px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Bricolage Grotesque',sans-serif;background:var(--white);color:var(--ink);display:flex;align-items:center;justify-content:center;min-height:100svh;text-align:center;padding:2rem}
+.card{max-width:500px;padding:3rem;background:#f8fbff;border:1.5px solid rgba(26,86,219,.1);border-radius:22px;box-shadow:0 20px 60px rgba(13,27,46,.08)}
+.icon{font-size:3rem;margin-bottom:1rem;display:inline-block}
+h1{font-size:2.5rem;font-weight:800;letter-spacing:-.03em;margin-bottom:1rem}
+h1 i{font-family:'Lora',serif;font-style:italic;font-weight:400;color:var(--blue)}
+p{font-size:1.05rem;color:var(--body);line-height:1.75;margin-bottom:2rem}
+.btn{display:inline-flex;align-items:center;font-weight:700;font-size:15px;border-radius:var(--pill);padding:14px 30px;text-decoration:none;background:var(--ink);color:white;transition:transform .18s}
+.btn:hover{transform:translateY(-2px)}
+</style>
+</head>
+<body>
+
+  <div class="card">
+    <span class="icon">☁️</span>
+    <h1>Thank <i>You!</i></h1>
+    <p>Your AWS Assessment request has been safely received. One of our cloud experts will review your details and get back to you within one business day.</p>
+    <a href="index.html" class="btn">Back to Home</a>
+  </div>
+
+</body>
+</html>
